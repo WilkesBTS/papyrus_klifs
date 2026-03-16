@@ -3,9 +3,9 @@ Dataset generation of Papyrus activity and KLIFS kinase data.
 
 ## How to run
 
-To run this code, run all cells in the 251125_Papyrus_KLIFS_Unitprot_filtering.ipynb notebook. Please note that this will initially download multiple datafiles from Zenodo to be able to filter the Papyrus dataset to the designated Uniprot accessions in the notebook.
+To run this code, run all cells in the Papyrus_KLIFS_Unitprot_filter.ipynb notebook. Please note that this will initially download multiple datafiles from Zenodo to be able to filter the Papyrus dataset to the designated Uniprot accessions in the notebook.
 
-These Uniprot accessions were selected by filtering the KLIFS kinase database on KLIFS quality, resolution and missing residues to ensure that they are high-quality structures to be used for docking research.
+These Uniprot accessions were selected by filtering the KLIFS kinase database (see KLIFS_filter.ipynb) on KLIFS quality, resolution and missing residues to ensure that they are high-quality structures to be used for docking research.
 
 ## List of Uniprot accessions
 
