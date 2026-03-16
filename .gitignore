@@ -1,0 +1,7 @@
+# Ignore downloaded raw data (from Zenodo/UniProt)
+data/05.6_combined_set_protein_targets.tsv
+data/05.6_combined_set_protein_targets.tsv.xz
+data/05.6_combined_set_without_stereochemistry.tsv
+data/05.6_combined_set_without_stereochemistry.tsv.xz
+data/uniprot_human_kinases.tsv
+data/uniprot_human_kinases.tsv.gz
