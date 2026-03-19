@@ -1,11 +1,11 @@
-# papyrus_klifs
-Dataset generation of Papyrus activity and KLIFS kinase data.
+# papyrus_klifs_alphafold
+Dataset generation of Papyrus activity and KLIFS kinase data. Also records AlphaFold kinase data complimentary to the fetched KLIFS kinases.
 
 ## How to run
 
-To run this code, run all cells in the Papyrus_KLIFS_Unitprot_filter.ipynb notebook. Please note that this will initially download multiple datafiles from Zenodo to be able to filter the Papyrus dataset to the designated Uniprot accessions in the notebook.
+To run this code, run all cells in the Papyrus_AF_KLIFS_Unitprot_filter.ipynb notebook. Please note that this will initially download multiple datafiles from Zenodo to be able to filter the Papyrus dataset to the designated Uniprot accessions in the notebook.
 
-These Uniprot accessions were selected by filtering the KLIFS kinase database (see KLIFS_filter.ipynb) on KLIFS quality, resolution and missing residues to ensure that they are high-quality structures to be used for docking research.
+These Uniprot accessions were selected by filtering the KLIFS kinase database (see the notebook) on KLIFS quality, resolution and missing residues to ensure that they are high-quality structures to be used for docking research.
 
 ## List of Uniprot accessions
 
